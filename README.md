@@ -2,7 +2,7 @@
 
 A simple, React‐based web app using Vite to display NASA’s “Astronomy Picture of the Day” (APOD) with minimal setup and clean UI.
 
-Live demo: [https://nasa-apod-six-peach.vercel.app](https://nasa-apod-six-peach.vercel.app) (if deployed)
+Live demo: [https://nasa-apod-ov36.vercel.app/](https://nasa-apod-ov36.vercel.app/)
 
 ---
 
