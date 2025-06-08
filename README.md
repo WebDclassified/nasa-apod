@@ -16,18 +16,3 @@ Live demo: [https://nasa-apod-six-peach.vercel.app](https://nasa-apod-six-peach.
 
 ---
 
-## 🚀 Project Structure
-
-/
-├─ public/ # Static assets
-│ └─ ...
-├─ src/ # React source code
-│ ├─ components/ # Reusable UI components
-│ ├─ App.jsx # Main app
-│ ├─ index.jsx # React entry point
-│ └─ styles.css # App styling
-├─ .env # Stores API key (gitignored)
-├─ .gitignore
-├─ package.json
-├─ vite.config.js
-└─ eslint.config.js
