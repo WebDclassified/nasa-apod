@@ -38,6 +38,7 @@ useEffect(() => {
 
 
   return (
+    <h2>Click on the image for more informaiton !</h2>
     <div className="apod-viewer">
       {data.media_type === 'image' ? (
         <img
@@ -49,7 +50,7 @@ useEffect(() => {
       ) : (
         <p className="unsupported">Today's APOD is not an image.</p>
       )}
-      <h2>Click on the image for more informaiton !</h2>
+      
       <div
         ref={panelRef}
         className={`explanation-panel ${showExplanation ? 'show' : ''}`}
