@@ -49,7 +49,7 @@ useEffect(() => {
           onClick={handleImageClick}
         />
       ) : (
-        <p className="unsupported">Click on the image for more informaiton !</p>
+        <p className="unsupported">Click on the image for more info!</p>
       )}
       
       <div
