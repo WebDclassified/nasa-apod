@@ -38,9 +38,7 @@ useEffect(() => {
 
 
   return (
-   <div>
-     <h2 >Click on the image for more informaiton !</h2>
-     </div>
+   
     <div className="apod-viewer">
        
       {data.media_type === 'image' ? (
@@ -51,7 +49,7 @@ useEffect(() => {
           onClick={handleImageClick}
         />
       ) : (
-        <p className="unsupported">Today's APOD is not an image.</p>
+        <p className="unsupported">Click on the image for more informaiton !</p>
       )}
       
       <div
