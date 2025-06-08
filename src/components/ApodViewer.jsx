@@ -38,9 +38,11 @@ useEffect(() => {
 
 
   return (
-   
+   <div>
+     <h2 >Click on the image for more informaiton !</h2>
+     </div>
     <div className="apod-viewer">
-       <h2 >Click on the image for more informaiton !</h2>
+       
       {data.media_type === 'image' ? (
         <img
           src={data.url}
